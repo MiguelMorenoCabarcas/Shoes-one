@@ -1,37 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shoes-one</title>
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/styles.css" />
     <!-- Font Awesome -->
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-rel="stylesheet"
-/>
-<!-- Google Fonts -->
-<link
-href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-rel="stylesheet"
-/>
-<!-- MDB -->
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
-rel="stylesheet"
-/>
-</head>
-<body>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-color">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <form class="d-flex input-group w-auto">
+                <input
+                  type="search"
+                  class="form-control rounded"
+                  placeholder="Search"
+                  aria-label="Search"
+                  aria-describedby="search-addon"
+                />
+                <span
+                  class="input-group-text text-white border-0"
+                  id="search-addon"
+                >
+                  <i class="fas fa-search"></i>
+                </span>
+              </form>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Background image -->
+      <div
+        class="p-5 text-center bg-image"
+        style="
+          background-image: url('assets/img/Banner-image.jpg');
+          height: 500px;
+        "
+      >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="title-banner-container text-white">
+              <h1 class="mb-3 font-banner"><em>Shoes-One</em></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </header>
+
+    <!-- section1 -->
     
-
-
-
+    <div class="bg-image1-s1">
+      <!-- title1 -->
+      <div class="title1 d-flex justify-content-center align-items-center">
+        <h1 class="text-light">¿Por qué shoes one?</h1>
+      </div>
+      
+      <!-- text1 -->
+      <div class="text1 d-flex flex-wrap">
+        <div class="text1-image "></div>
+        <div class="text1-content text-light p-5">
+          <h3 class="mb-4">
+            Shoes-One nació como una alternativa a distintas tiendas de ropa
+            online con el fin de entregar a los colombianos un nuevo estilo de
+            vida en base costo y calidad.
+          </h3>
+          <h3 class="mb-4">
+            Es por eso, que en Shoes-One encontrarás las mejores ofertas y
+            material de construcción en prendas de vestir.
+          </h3>
+        </div>
+      </div>
+    </div>
 
     <!-- MDB -->
-<script
-type="text/javascript"
-src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
-></script>
-</body>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
+    ></script>
+  </body>
 </html>
