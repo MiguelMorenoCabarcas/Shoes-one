@@ -218,13 +218,22 @@
     }
   }
 
-
+/* seccion4 */
 
   .blackground1{
     background-color: #e1e1e1;
     width: 100%;
     height: 800px;
     transition: background-color 0.3s;
+  }
+
+  @media (max-width: 600px) {
+    .blackground1{
+      background-color: black;
+      width: 100%;
+      height: 800px;
+      transition: background-color 0.3s;
+    }
   }
 
   .blackground1:hover{
@@ -234,8 +243,38 @@
 
   .Tittleend{
     color: #e1e1e1;
-    font-size: 75px;
+    font-size: 60px;
     padding-top: 75px;
+    height: 200px;
     
   }
+
+  @media (max-width: 600px) {
+    .Tittleend{
+      color: #e1e1e1;
+      font-size: 25px;
+      padding-top: 75px;
+      height: 150px;
+      text-align: center;
+    }
+  }
+
+  .btn{
+    width: 100px;
+    height: 100px;
+  }
   
+  .icon-container{
+    width: 100%;
+    height: 500px;
+  }
+
+  @media (max-width: 600px) {
+    .icon-container{
+      width: 100%;
+      height: 550px;
+      flex-direction: column;
+      margin: 2rem 0 2rem 0 ;
+      gap: 4rem;
+    }
+  }
